@@ -1,0 +1,314 @@
+/* CSS for all */
+* {
+    margin: 0 0;
+    padding: 0 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive {
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    padding: 1%;
+    background-color: #2ecc71;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #27ae60;
+}
+
+.btn-secondary {
+    padding: 1%;
+    background-color: #3498db;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #2980b9;
+}
+
+.btn-danger {
+    padding: 1%;
+    background-color: #e74c3c;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 33%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.success {
+    padding: 2%;
+    color: #27ae60;
+}
+.error {
+    padding: 2%;
+    color: #c0392b;
+}
+
+/* CSS for navbar section */
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.menu {
+    line-height: 60px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* CSS for product search section */
+
+.product-search {
+    background-color: #e74c3c;
+    background-size: cover;
+    padding: 3% 0;
+}
+
+.product-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+}
+
+/* CSS for categories */
+.categories {
+    padding: 4% 0;
+    background-color: #9fb2bf;
+}
+
+.box-3{
+    width: 26%;
+    padding: 2%;
+    float: left;
+    margin: 2%;
+    background-color: #e74c3c;
+}
+.box-3:hover{
+    background-color: #c0392b;
+}
+
+/* CSS for product menu */
+.product-menu {
+    padding: 4% 0;
+    background-color: #bdc3c7;
+}
+
+.product-menu-box {
+    width: 27%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.product-menu-img {
+    width: 40%;
+    float: left;
+}
+
+.product-menu-desc {
+    width: 40%;
+    float: left;
+    margin-left: 13%;
+    margin-top: 13%;
+}
+
+.product-price {
+    font-size: 1.2 rem;
+    margin: 2% 0;
+}
+
+.product-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+/* CSS for social */
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    padding: 1%;
+    display: inline;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+/* for manage account section */
+.tbl-full {
+    width: 100%;
+}
+.tbl-30 {
+    width: 30%;
+}
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td {
+    padding: 1%;
+}
+.main-content {
+    /* margin: 1% 0; */
+    background-color: #bdc3c7;
+    padding: 3% 0;
+}
+.wrapper {
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* CSS for Responsive */
+@media only screen and (max-width:768px) {
+    .logo {
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul {
+        text-align: center;
+    }
+
+    .product-search input[type="search"] {
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn {
+        width: 90%;
+        padding: 2%;
+    }
+
+    .product-search {
+        padding: 10% 0;
+    }
+
+    .categories {
+        padding: 20% 0;
+    }
+
+    .box-3 {
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    h2 {
+        margin-bottom: 10%;
+    }
+
+    .product-menu {
+        padding: 20% 0;
+    }
+
+    .product-menu-box {
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .social {
+        padding: 3% 0;
+    }
+}
